@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body class="two">
+    <div class="text-center mt-5">
+        <button class="clicks mb-4">Click Me</button>
+        </div>
+        <div id="box" class="container">
+            <div class="one border border-dark p-4"> 
+                <h3 class="text-center"><span >Enter Details </span>
+                    <button type="button" id="button" class="btn float-right"> <img src="data:image/jpeg;base64,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" /></button></h3>
+
+                <form action="#">
+                    <div class="form group">
+                        <label for="Username"> Username</label>
+                        <input type="text" id ="username" name="" class="form-control">
+                        <label  id="usernamevalidation"></label>
+
+                    </div>
+                    <div class="form group">
+                        <label for="Email"> Email</label>
+                        <input type="email" id="email" name="" class="form-control mb-2">
+                        <label id="emailvalidation"></label>
+                        
+                    </div>
+                    <input type="button" value="submit" class="btn btn-primary submission">
+                    <h5 id="submitvalidation"></h5>
+                </form>
+            </div>
+
+        
+    </div>
+    </body>
+</html>
